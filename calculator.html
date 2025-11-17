@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="Stylesheet" href="calculator.css">
+</head>
+<body>
+  <div class="h1">
+    <input type="text" id="display" disabled>0 
+  </div>
+    <div class = "button">
+    
+    <button  onclick= "clearDisplay()" class="calculator1 ">C</button>
+ 
+    <button onclick= "appendValue('1')"class="calculator1 ">1</button>
+    <button  onclick= "appendValue('2')"class="calculator2 ">2</button>
+    <button  onclick= "appendValue('3')"class="calculator2 ">3</button>
+    <button  onclick= "appendValue('4')"class="calculator2 ">4</button>
+    <button  onclick= "appendValue('5')"class="calculator3 ">5</button>
+    <button  onclick= "appendValue('6')"class="calculator3 ">6</button>
+    <button  onclick= "appendValue('7')"class="calculator3 ">7</button>
+    <button  onclick= "appendValue('8')"class="calculator4 ">8</button>
+    <button  onclick= "appendValue('9')"class="calculator4 ">9</button>
+    <button  onclick= "appendValue('0')"class="calculator4 ">0</button>
+    <button  onclick= "appendValue('+')"class="calculator5 ">+</button>
+    <button  onclick= "appendValue('-')"class="calculator5 ">-</button>
+    <button  onclick= "appendValue('*')"class="calculator5 ">*</button>
+    <button  onclick= "appendValue('/')"class="calculator6 ">/</button>
+    <button onclick= "appendValue('.')"class="calculator6 ">.</button>
+    <button  onclick= "calculate()" class="calculator6 equal ">=</button>
+ </div>
+ <script src="calculator.js"></script>
+
+</body>
+</html>
